@@ -1,4 +1,4 @@
-import { easeIn, easeInOut, motion } from 'motion/react'
+import { easeInOut, motion } from 'motion/react'
 import React from 'react';
 import { Link, NavLink } from 'react-router';
 
@@ -46,15 +46,15 @@ const Navbar = () => {
                         <motion.img
                             src="/src/assets/logo.PNG"
                             alt="CEleven Logo"
-                            className="w-12 h-12 object-contain rounded-3xl"
-                            initial={{ opacity: 0, y: -8, scale: 0.9 }}
-                            animate={{ opacity: 1, y: 0, scale: 1 }}
-                            transition={{
-                                duration: 0.5,
-                                ease: "easeOut"
-                            }}
-                            whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.95 }}
+                            className="w-10 h-10 object-contain rounded-3xl"
+                            // initial={{ opacity: 0, y: -8, scale: 0.9 }}
+                            // animate={{ opacity: 1, y: 0, scale: 1 }}
+                            // // transition={{
+                            // //     duration: 0.5,
+                            // //     ease: "easeOut"
+                            // // }}
+                            // whileHover={{ scale: 1.1 }}
+                            // whileTap={{ scale: 0.95 }}
                         />
 
                         <motion.span
